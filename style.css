@@ -192,3 +192,22 @@ p.card-text.text-center.a {
   margin-left: 20px;
 }
 }
+
+/* Small Version */
+@media (max-width: 575.98px) { 
+
+  #panel1 {
+    font-size: 20px;
+  }
+  #image1 {
+    height: 50px;
+    width: 50px;
+  }
+  /* h4#panel1.img2{
+    color:blue;
+  } */
+  .info-panel.a h4 {
+    padding-left: 5px;
+}
+
+}
