@@ -174,6 +174,16 @@ btn.addEventListener('click', function () {
 
 })
 
+btn.addEventListener('click', function () {
+  var x = document.getElementsByClassName('form-control')[0];
+  var y = document.getElementsByClassName('form-control')[1];
+  var z = document.getElementsByClassName("custom-select")[0];
+  x.value = ''
+  y.value = ''
+  z.value = 'Select Your HairStyle'
+  x.focus()
+})
+
 // var poto = document.getElementsByTagName('strong')[0]
 // var poto2 = document.querySelector('h4 img')
 
@@ -233,7 +243,7 @@ btn.addEventListener('click', function () {
 // tampilanTanggal += " " + jam + ":" + menit + ":" + detik;
 
 // console.log(tampilanTanggal);
-
+var x = document.getElementsByClassName('form-control')[0];
 
 
 
